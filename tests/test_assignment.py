@@ -23,6 +23,7 @@ def test_parse_packaging():
         print(f"ACTUAL  : {actual}")
         assert actual == expected
 
+
 def test_calc_total_units():
     # tests the total units in the package
     tests = [

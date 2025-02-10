@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Sudent Email:  email
+Student Name:  Solomon Burt
+Sudent Email:  sdburt@syr.edu
 
 ## Instructions
 
@@ -23,3 +23,8 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+The main thing I learned while composing the packaging.py was that there is a module that can be imported for just about anything. For example when parsing the string with the package information, I needed a way to separate the smaller items within the 1 larger contair, and then separate that from whatever was followed by the "/", however, split on takes one value, therefore I split the string into sections by the "/" and used the re module to re.split my enumerated sections by their " in "'s to make pairs.
+
+The other two packaging functions were much easier as I only needed to uses small for loops for either the keys or values in the dictionaries.
+
+While coding the program.py, I realized the applicability of the Challenge 1-3-3 and utilized that as my framework for developing it.
