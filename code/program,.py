@@ -31,7 +31,7 @@ import packaging
 packages = []
 packages_parsed = []
 
-with open('packaging.txt', 'r') as handle:
+with open('data/packaging.txt', 'r') as handle:
     for line in handle.readlines():
         packages.append(line.strip())
     for i in packages:
